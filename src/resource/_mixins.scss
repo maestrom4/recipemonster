@@ -1,0 +1,13 @@
+@mixin responsify($min, $media: screen, $max: false) {
+    @if $max {
+             @media #{ $media} and (min-width: $min) and (max-width:
+             $max) {
+                @content; }}
+    @else {
+            
+    @media #{$media} and (min-width: $min) {
+                
+    @content; }}}
+
+
+    

@@ -1,0 +1,329 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap");
+.mantle {
+  background: #24C6DC;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #514A9D, #24C6DC);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #514A9D, #24C6DC);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.electric-violet {
+  background: #4776E6;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #8E54E9, #4776E6);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #8E54E9, #4776E6);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.cherry {
+  background: #EB3349;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #F45C43, #EB3349);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #F45C43, #EB3349);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.blood-mary {
+  background: #FF512F;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #DD2476, #FF512F);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #DD2476, #FF512F);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.green-beach {
+  background: #02AAB0;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #00CDAC, #02AAB0);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #00CDAC, #02AAB0);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.burning-orange {
+  background: #FF416C;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FF4B2B, #FF416C);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+body {
+  font-family: "Quicksand", Noto Sans !important;
+  font-size: 0.9rem;
+  background-color: #F2F2F2;
+}
+body a {
+  text-decoration: none !important;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.font-thin {
+  font-weight: 400;
+}
+
+.font-bold {
+  font-weight: 600;
+}
+
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: transparent !important;
+  outline: 0;
+  box-shadow: 0 0 0 0.1rem rgba(255, 255, 255, 0.1) !important;
+}
+
+.max-width-50-percent {
+  max-width: 40%;
+}
+
+.recipe-home-menu {
+  list-style-type: none;
+}
+
+.rm-selected-item {
+  background-color: #343a40;
+  color: white;
+  padding: 0.3rem;
+  border-radius: 0.5rem;
+}
+
+.user-name {
+  font-size: 1rem;
+}
+
+.rm-button, .rm-button:active {
+  background-color: #343a40;
+  color: white !important;
+  border-radius: 0.5rem;
+  text-decoration: none !important;
+  padding: 0.1rem 1.2rem !important;
+}
+
+.img-recipe-item {
+  position: absolute;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.recipe-item {
+  cursor: pointer;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.detailed-recipe-img {
+  transform: translate(0%, -50%);
+}
+
+.recipe-img-container {
+  overflow: hidden !important;
+  width: 100%;
+  height: 200px;
+}
+
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.table th, .table td {
+  padding: 0.45rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+.table th thead, .table td thead {
+  border-radius: 1rem;
+}
+
+.numbered {
+  background-color: #343a40;
+  color: white;
+  border-radius: 1rem;
+  padding: 0.3rem 0.7rem;
+  text-align: center;
+}
+
+.tableBody, .tableBody > tr, .tableBody > tr > td {
+  border: none !important;
+}
+.tableBody > tr, .tableBody > tr > td, .tableBody > tr > tr, .tableBody > tr > tr > td, .tableBody > tr > td > tr, .tableBody > tr > td > tr > td {
+  border: none !important;
+}
+
+.search:hover, .search:focus {
+  color: #343a40 !important;
+  background-color: white !important;
+  border-color: none !important;
+  box-shadow: 0 0 0 0.1rem rgba(130, 138, 145, 0) !important;
+}
+
+input, button, input:focus, button:focus {
+  border: none !important;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.recipe-list-container {
+  position: relative;
+  width: 250px;
+  height: 156.66px;
+  overflow: hidden;
+}
+
+.card-recipe-title {
+  font-size: 1rem;
+}
+
+.sub-description {
+  font-size: 0.8rem;
+}
+
+.recipe-rating {
+  position: absolute;
+  width: 40%;
+  height: 23px;
+  background: #1C82E7;
+  /* border-radius: 5px; */
+  top: -10rem;
+  left: -0.3rem;
+  z-index: 99;
+  font-size: 0.7rem;
+  box-shadow: none;
+  border: none;
+}
+
+.page-title {
+  font-size: 1.3rem;
+}
+
+.page-sub-title {
+  font-size: 0.9rem;
+}
+
+/* DESKTOP FIRST */
+/* XL */
+/* LG 990 1198.4*/
+@media (max-width: 61.9em) {
+  .recipe-list-container {
+    position: relative;
+    width: 250px;
+    height: 156.66px;
+    overflow: hidden;
+  }
+
+  .card-recipe-title {
+    font-size: 1rem;
+  }
+
+  .sub-description {
+    font-size: 0.8rem;
+  }
+}
+/* MD 766*/
+@media (max-width: 47.9em) {
+  .recipe-list-container {
+    position: relative;
+    width: 250px;
+    height: 156.66px;
+    overflow: hidden;
+  }
+
+  .card-recipe-title {
+    font-size: 1rem;
+  }
+
+  .sub-description {
+    font-size: 0.8rem;
+  }
+}
+/* SM 542*/
+@media (max-width: 33.9em) {
+  .recipe-list-container {
+    text-align: center;
+    position: relative;
+    width: 100%;
+    height: 70%;
+    overflow: hidden;
+  }
+
+  .card-recipe-title {
+    font-size: 1.6rem;
+  }
+
+  .sub-description {
+    font-size: 1.2rem;
+  }
+
+  .recipe-rating {
+    width: 120px;
+    height: 28px;
+    top: -1rem;
+    left: 1rem;
+    font-size: 1rem;
+  }
+
+  .page-title {
+    font-size: 1.6rem;
+  }
+
+  .page-sub-title {
+    font-size: 0.8rem;
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.rounded-input-left {
+  border-radius: 0.5rem 0 0 0.5rem !important;
+}
+
+.rounded-input-right {
+  border-radius: 0 0.5rem 0.5rem 0 !important;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+/*# sourceMappingURL=main.css.map */
