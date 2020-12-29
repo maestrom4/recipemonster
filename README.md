@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Recipe Monster App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is test sample project only for clients.
 
 ## Available Scripts
 
